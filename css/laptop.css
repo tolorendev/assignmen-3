@@ -115,6 +115,7 @@ img {
 
 .heading-secondary {
   font-size: 3rem;
+  color: #343434;
 }
 
 /* ----------------------- */
@@ -190,7 +191,7 @@ img {
 .navbar-link:link,
 .navbar-link:visited {
   font-size: 1.4rem;
-  color: #343434;
+  color: #4a4a4a;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -350,7 +351,7 @@ img {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.3;
-  color: #343434;
+  color: #4a4a4a;
   margin-bottom: 0.8rem;
   position: relative;
   display: flex;
@@ -468,7 +469,7 @@ img {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.3;
-  color: #343434;
+  color: #4a4a4a;
   margin-bottom: 1.2rem;
 }
 
@@ -535,7 +536,7 @@ a.project-3 {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.3;
-  color: #343434;
+  color: #4a4a4a;
   padding: 1.6rem;
 }
 
@@ -639,6 +640,7 @@ a.home-page-link {
   text-decoration: none;
   color: inherit;
 }
+/* ./ */
 
 .charter-page {
   box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.1);
@@ -648,8 +650,20 @@ a.home-page-link {
   background-color: #f4fdfe;
 }
 
+/* Style for the title of each part in the project charter */
+.charter-page div p:first-child:not(:last-child) {
+  color: #4a4a4a;
+}
+
+/* Style for the title of Scopes */
+.scopes h3 {
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
 .charter-page .heading-secondary {
   font-size: 2.4rem;
+  font-weight: 700;
 }
 
 .charter-page ul {
@@ -663,6 +677,7 @@ a.home-page-link {
 
 .charter-page i {
   font-size: 2.4rem;
+  color: #4a4a4a;
 }
 
 /* Goals */
@@ -671,7 +686,6 @@ a.home-page-link {
   display: flex;
   align-items: center;
   gap: 3.6rem;
-  /* margin-left: 3.2rem; */
 }
 
 .goal-list-item i {
